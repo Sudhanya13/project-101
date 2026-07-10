@@ -1,0 +1,95 @@
+
+
+*{
+    margin:0;
+    padding:0 ;
+}
+
+.item{
+  font-style: italic;
+}
+
+
+
+  nav{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .menu{
+     display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap:10px;
+     color:black ;
+    
+  }
+
+  ul li a{
+    text-decoration: none;
+     color:black ;
+    
+
+  }
+
+  .hero-banner{
+
+    background-image: url("./assets/banner.jpg");
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    color: white;
+    text-align: center;
+    padding :50px 35px;
+    /* margin: auto; */
+  }
+
+
+ .speaker{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+
+ }
+
+ .services{
+
+   display:grid;
+  grid-template-columns: repeat(3,1fr);
+
+
+ }
+
+
+ .bottom {
+    background-color: #0D1B2A;
+}
+
+.web-foot {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#FFFFFF
+}
+
+.item-btn {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+
+
+
+
+ 
