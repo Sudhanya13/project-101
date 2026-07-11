@@ -3,7 +3,6 @@
 *{
     margin:0;
     padding:0 ;
-    
     font-family: "Inter", sans-serif;
 }
 
@@ -89,7 +88,7 @@
   
  .btn1{
   background-color:#1d4ed8;
-  border-radius: 10px;
+  border-radius: 12px;
 
   height :48px  ;
   width : 180px;
@@ -103,7 +102,7 @@
 }
 .btn2{
   background-color:#1d4ed8;
-   border-radius: 10px; 
+   border-radius: 12px; 
 
   height :48px  ;
   width : 180px;
@@ -115,6 +114,7 @@
      font-weight:700;
   
   margin-top: auto;
+  margin-bottom:40px;
   
 
 
