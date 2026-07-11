@@ -32,12 +32,13 @@
     
   }
 
-  ul li a{
+  .menu li a{
     text-decoration: none;
       color:#575757 ; 
        font-weight:400;
        font-size: 16px;
     font-style: normal;
+      font-family: "Arimo", sans-serif;
 
   }
 
@@ -448,17 +449,37 @@ heading1 h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color:#FFFFFF ;
+    color:#ffffff66;
     font-style: none;
-    /* font-family: in; */
+  
 }
-
-.item-btn {
-    display: flex;
-    list-style: none;
+.item-btn{
+     display: flex;
+    justify-content: space-between;
     gap: 20px;
+
+
+}
+.item-btn li{
+    list-style: none;
+
 }
 
+
+
+.item-btn li a  {
+   
+    text-decoration:none;
+     color:#ffffff66;
+     font-style: normal;
+    
+    
+}
+
+.web-foot p{
+    font-size: 16px;
+    font-weight: 400;
+}
 
 
 .About{
