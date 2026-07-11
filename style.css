@@ -69,7 +69,7 @@
     line-height: 1.2;
     /* margin-bottom: 20px; */
     margin-top:70px;
-      padding :35px 5px;
+      padding :20px 0px;
 }
 
 .heading em{
@@ -81,7 +81,7 @@
     font-size: 20px;
     line-height: 1.8;
     color: #FFFFFF;
-      padding :0 5px;
+      /* padding :0 5px; */
 }
 
   
@@ -117,21 +117,114 @@
 
 
 }
+.About{ 
+    display: flex;
+justify-content:center;
+flex-direction: column;
+margin-top: 30px;
 
- .speaker{
-  display:grid;
-  grid-template-columns: repeat(2,1fr);
+   }
+   
 
- }
+/* .abt-heading{
+    text-align: center;
+    padding: 30px 0;
+    font-size:55px;
+    font-weight: 600;
+   
+
+} */
+.abt-heading{
+    text-align:center;
+    font-size:48px;
+    margin-bottom:50px;
+}
+
+
+.speaker-container{
+
+    width:1200px;
+    margin:auto;
+
+    display:grid;
+     
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+}
+
+.card{
+
+    background:#FFFFFF;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+
+   border: 3px solid #f5f5f5;
+
+}
+
+.card-pic img{
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+.membership-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.membership-heading h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.membership-heading p{
+    font-size: 18px;
+    color: #6b7280;
+}
+ 
 
  .services{
 
    display:grid;
   grid-template-columns: repeat(3,1fr);
+   width:1200px;
+    margin:auto;
+     gap:30px;
+}
+
+  .service1{
+
+    background:#FFFFFF;
+
+    border-radius:12px;
+
+    overflow:hidden;
 
 
- }
+   border: 2px solid #f5f5f5;
 
+}
+.heading1{
+    padding: 20px 20px;
+    margin-top:3px;
+}
+
+
+     
+
+ 
 
  .bottom {
   margin-top: 35px;
